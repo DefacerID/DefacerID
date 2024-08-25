@@ -68,7 +68,7 @@ if __name__ == "__main__":
     print_banner()
     
     if len(sys.argv) != 2:
-        print("Usage: python3 code.py <file.txt>")
+        print("Usage: python3 defacerid.py <file.txt>")
         sys.exit(1)
 
     file_path = sys.argv[1]
