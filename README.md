@@ -44,6 +44,17 @@ chmod +x defacerid.php
 
 ```
 
+## Configuration
+
+Before running the scripts, you need to configure the following settings. Edit the relevant files based on your chosen language:
+
+- **notifier:** Your name or identifier.
+- **team:** The name of your team or organization (Optional).
+- **poc:** The Proof of concept for the submission (e.g., "SQL Injection").
+- **reason:** The reason for the submission (e.g., "Not available").
+
+## URL Lists
+
 Assuming you have a text file named `urls.txt` with the following content:
 ```
 https://example1.com
