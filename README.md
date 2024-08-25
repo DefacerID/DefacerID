@@ -50,8 +50,8 @@ Before running the scripts, you need to configure the following settings. Edit t
 
 - **notifier:** Your name or identifier.
 - **team:** The name of your team or organization (Optional).
-- **poc:** The Proof of concept for the submission (e.g., "SQL Injection").
-- **reason:** The reason for the submission (e.g., "Not available").
+- **poc:** The type of Proof of concept (e.g., "SQL Injection").
+- **reason:** The reason for the submission (e.g., "As a challenge").
 
 ## URL Lists
 
