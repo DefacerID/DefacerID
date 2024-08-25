@@ -91,7 +91,7 @@ function defacerid_bulk_submissions($file_path) {
 print_banner();
 
 if ($argc !== 2) {
-    echo "\nUsage: php code.php <file.txt>\n";
+    echo "\nUsage: php defacerid.php <file.txt>\n";
     exit(1);
 }
 
