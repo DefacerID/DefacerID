@@ -62,6 +62,15 @@ https://example2.com
 https://example3.com
 ```
 
+## Response
+
+```
+{
+  "status":"success",
+  "message":"Successfully added to the database"
+}
+```
+
 ## Troubleshooting
 
 - **File Not Found Error:** Ensure the file path provided exists and is correct.
