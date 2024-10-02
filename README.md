@@ -53,6 +53,24 @@ Before running the scripts, you need to configure the following settings. Edit t
 - **poc:** The type of Proof of concept (e.g., "SQL Injection").
 - **reason:** The reason for the submission (e.g., "As a challenge").
 
+## Endpoint
+
+```
+https://api.defacer.id/notify
+```
+
+## JSON Data
+
+```
+{
+  "notifier": notifier,
+  "team": team,
+  "url": url,
+  "poc": poc,
+  "reason": reason
+}
+```
+
 ## URL Lists
 
 Assuming you have a text file named `urls.txt` with the following content:
