@@ -14,7 +14,7 @@ def print_banner():
  | |__| | |  __/ | |   | (_| | | (__  |  __/ | |     _   _| |_  | |__| |
  |_____/   \\___| |_|    \\__,_|  \\___|  \\___| |_|    (_) |_____| |_____/  
 
-    admin@defacer.id // twitter.com/defacerid // https://defacer.id
+    defacerid@protonmail.com // twitter.com/defacerid // https://defacer.id
 
 """
     print(banner)
@@ -54,7 +54,7 @@ def defacerid_bulk_submissions(file_path):
             "poc": poc,
             "reason": reason
         }
-        response = requests.post("https://api.defacer.id/notify", json=data)
+        response = requests.post("https://api.defacer.id/v2/notify", json=data)
         
         try:
             response_json = response.json()
