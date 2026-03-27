@@ -10,7 +10,7 @@ function print_banner() {
  | |__| | |  __/ | |   | (_| | | (__  |  __/ | |     _   _| |_  | |__| |
  |_____/   \\___| |_|    \\__,_|  \\___|  \\___| |_|    (_) |_____| |_____/  
 
-    admin@defacer.id // twitter.com/defacerid // https://defacer.id
+    defacerid@protonmail.com // twitter.com/defacerid // https://defacer.id
 
 EOT;
     echo $banner;
@@ -65,7 +65,7 @@ function defacerid_bulk_submissions($file_path) {
             "reason" => $reason
         ]);
 
-        $ch = curl_init("https://api.defacer.id/notify");
+        $ch = curl_init("https://api.defacer.id/v2/notify");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
