@@ -85,6 +85,7 @@ function defacerid_bulk_submissions($file_path) {
         }
 
         echo "$url => $message\n";
+		usleep(800000);
     }
 }
 
