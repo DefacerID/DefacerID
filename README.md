@@ -56,7 +56,7 @@ Before running the scripts, you need to configure the following settings. Edit t
 ## Endpoint
 
 ```
-https://api.defacer.id/notify
+https://api.defacer.id/v2/notify
 ```
 
 ## JSON Data
