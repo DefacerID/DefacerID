@@ -4,6 +4,7 @@ import requests
 import json
 import sys
 import os
+import time
 
 def print_banner():
     banner = """
@@ -63,6 +64,7 @@ def defacerid_bulk_submissions(file_path):
             message = 'Invalid JSON response'
 
         print(f"{url} => {message}")
+        time.sleep(0.8)
 
 if __name__ == "__main__":
     print_banner()
